@@ -4,7 +4,19 @@ from django.shortcuts import render
 
 
 def catalog(request):
-    return render()
+    context = {
+        "title": "Home catalog",
+        "goods": [
+            {
+                "image": "",
+                "name": "",
+                "description": "",
+                "price": 150.00,
+            }
+        ],
+    }
+    return render(request, "goods/catalog.html", context)
+
 
 def product(request):
-    return render()
+    return render(request, "goods/product.html")
