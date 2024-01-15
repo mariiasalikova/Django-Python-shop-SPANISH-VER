@@ -4,11 +4,9 @@ from django.http import HttpResponse
 from goods.models import Categories
 
 def index(request):
-    categories = Categories.objects.all()
     context = {
         'title':'Home - main page',
-        'content':'Home furniture shop',
-        'categories':categories
+        'content':'HOME Furniture Shop'
     }
     return render(request, 'main/index.html', context)
 
