@@ -1,0 +1,1 @@
+[{"model": "goods.products", "pk": 1, "fields": {"name": "Mesa", "slug": "mesa", "description": "Mesa usual para cenar con todos los amigos.", "image": "goods_images/kitchen_table.jpg", "price": "100.00", "discount": "10.00", "quantity": 10, "category": 4}}]
